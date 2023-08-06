@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styled.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+rel="stylesheet" />
+<link rel="stylesheet" href="/css/register.css">
+    
+    <title>Registro</title>
+</head>
+<body>
+    <header id="header">
+        <div id="headertablet">
+       <div id="header-logonav"> 
+        <img src="/images/logo-mercado-liebre.svg" alt="" > 
+        <form method="get" id="barra-busqueda">
+            <input type="text" placeholder="Buscar productos, marcas">
+            <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+      </form>
+    </div>
+        <p id="credito"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito</p>  
+    </div>
+        <nav id="navbar">
+        <ul ><li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas Oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Ayuda</a></li>
+        </ul>
+       
+        <ul>
+            <li><a href="/registro">Creá tu cuenta</a> <i class="fa-regular fa-address-card"></i></li>
+            <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i> </li>
+            <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
+        </ul>       
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+
+        </div>
+
+    
+
+    </header>
+
+
+
+
+   <main id="formulario">
+    <form action="/" method="GET">
+        <p>
+         <label></label>   
+        <input type="text" name="nombre" placeholder="Nombre y apellido">
+        </p>
+        <p>
+            <input type="text" name="usuario" placeholder="Nombre de Usuario">
+        </p>
+        <p>
+            <h4>Fecha de nacimiento</h4>
+            <br>
+            <input type="date" name="fecha" value="mm/dd/yyyy" min="01-01-1923" max="01-01-2024" >
+        </p>
+        <p>
+            <input type="text" name="domicilio" placeholder="Domicilio">
+        </p>
+        <p>
+            <h4>Perfil de Usuario</h4>
+            <input type="radio" name="tipo-de-usuario" value="comprador"> Comprador
+            <input type="radio" name="tipo-de-usuario" value="vendedor"> Vendedor
+        </p>
+        <p>
+            <h4>Intéreses</h4>
+            
+            <input type="checkbox" name="tipo-de-interes" value="electro"> Electro  <br>
+            <input type="checkbox" name="tipo-de-interes" value="moda"> Moda <br>
+            <input type="checkbox" name="tipo-de-interes" value="hogar"> Hogar <br>
+            <input type="checkbox" name="tipo-de-interes" value="juguetería"> Juguetería <br>
+            <input type="checkbox" name="tipo-de-interes" value="vida-sana"> Vida sana 
+        </p>
+        <p>
+            <h4>Foto de Usuario</h4>
+            <input type="file" name="foto" accept=".jpg" multiple>
+        </p>
+        <p>
+            <h4>Contraseña:</h4>
+            <input type="password" name="contraseña">
+        </p>
+        <p>
+            <h4>Confirmar contraseña:</h4>
+            <input type="password" name="confirmar-contraseña">
+        </p>
+        <button type="submit">>Enviar</button>
+        <button type="reset"> Borrar</button>
+    </form>
+</main>
+
+<footer id="footer">
+    <section>
+      <i class="fa-solid fa-credit-card"  style="color: #005eff;font-size: 2em" > </i>
+     <h2 >Pagá con tarjeta o en efectivo</h2>
+     <p >Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+      puntos de pago. ¡Y siempre es seguro!</p> 
+    </section>
+    <section>
+      <i class="fa-solid fa-gift" style="color: #1f73e0;font-size: 2em" ></i>
+      <h2 >Envío gratis desde $ 2.500</h2>
+      <p >Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+          productos. Es un beneficio de Mercado Puntos.</p>
+    </section>
+    <section>
+      <i class="fa-solid fa-user-shield" style="color: #1862e2; font-size: 2em; "></i>
+      <h2 >Seguridad, de principio a fin</h2>
+      <p >¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+          porque estás siempre protegid@.</p>
+    </section>
+    <section>
+      <p >Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </section>
+
+  </footer>
+
+
+
+
+
+
+
+</body>
+</html>

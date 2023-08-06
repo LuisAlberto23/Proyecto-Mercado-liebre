@@ -1,0 +1,305 @@
+*{box-sizing: border-box;
+    
+} 
+
+#header{ background-color: #EAC926;
+   
+  padding: 2%; 
+} 
+#home{
+    width: 100vw;
+}
+
+body{
+    margin:0;
+    font-family:roboto;
+    font-size:12px
+}
+#titulos{ font-size: 24px;
+}
+
+#precios{font-size: 18px
+}
+#descuentoydescpripcion{ font-size: 16px
+}
+
+#credito{
+    text-align: center;
+}
+
+.burger-menu{
+    text-align: center;
+    background-color: #1259c3;
+    color: white;
+    max-width:40px ;
+    margin: auto;
+    font-size:20px;
+    border-radius: 8px;
+    padding: 6px 0px;
+
+}
+
+#footer{
+    text-align: center;
+}
+
+.fa-credit-card{
+    font-size: 2em;
+}
+
+#main{
+    text-align: center;
+     width: 100%; 
+     background-color: #ebebeb;
+
+}
+#articulos{
+    margin-bottom: 10px;
+}
+
+#subcaja{
+    border-top: solid 1px #ebebeb;
+    padding-left:15px ;
+    padding-right: 15px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    text-align: left;
+
+
+}
+
+h4#descuentoydescpripcion{
+    display: none;
+}
+
+#navbar{
+    display:none
+}
+
+#flex #descuentoydescpripcion{
+    color: #39b54a;
+}
+
+.fa-truck{
+    color: #39b54a;
+    display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+    
+} 
+
+#articulos img{
+    width:90% ;
+}
+
+#header-logonav{
+    display:flex;
+  /*   border: solid 2px red; */
+    max-width: 100%;
+    
+}
+
+#header-logonav img{
+    width: 47%;
+}
+
+#header-logonav input{
+    width: 70%;
+    text-align: right;
+   
+}
+
+#barra-busqueda{
+    margin-left: 5%;
+}
+
+
+
+
+
+
+@media (min-width:361px) {
+    h4#descuentoydescpripcion{
+        display: block;
+  
+    }
+    #subcaja{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    article img{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
+    #navbar{
+        display: block;
+        
+
+    }
+
+    #navbar ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0;
+        
+    }
+
+    #navbar a{
+        color: black;
+        text-decoration-line: none;
+    }
+
+    .burger-menu{
+        display: none;
+
+    }
+
+    #flex{
+        display: flex;
+        align-items: center;   
+    }
+
+    #flex #precios{
+        flex-grow:0.30;
+    }
+
+    #flex #descuentoydescpripcion{
+        flex-grow:0.70;
+    } 
+    .fa-truck{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        
+        }
+   
+    #subseccion{
+         display: flex; 
+         flex-wrap: wrap;
+         justify-content: space-around;
+    }
+    
+    #subseccion #articulos{
+    width:47%;
+    }
+
+    #subseccion h2{
+      
+        width: 100%;
+
+    }
+    
+    #headertablet{
+        display:flex;
+        align-items: center;
+    }
+
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  #navbar ul{
+    display: flex;
+    margin: 0% 1%;
+    
+    
+  }
+
+   #navbar li{
+    margin: 0% 1%;
+    text-align: center;
+    
+  }
+  
+   
+
+    
+
+}
+
+@media (min-width:769px){
+    h4#descuentoydescpripcion{
+        display: block;
+    }
+
+    #subseccion #articulos{
+        width: 25%;
+    }
+    #subseccion {
+        padding: 0 2%;
+    }
+    #subseccion h2 {
+        margin-left: 2%;
+    }
+
+    #articulos{
+        position: relative;
+    }
+
+    #articulos h4{
+        display: none;
+        
+        transition: all 5000ms;
+    }
+
+    #articulos:hover h4{
+        display: block;
+        
+    }
+
+    #articulos i{
+
+        transition: all 1s;
+        
+        
+    }
+
+    #articulos:hover i{
+       transform: rotateZ(-90deg)
+
+    
+    }
+
+    #footer{
+        display:flex;
+        justify-content: space-between;
+        margin: 0% 5%;
+        
+    }
+
+    #Copyright{
+        margin-left: 6%;
+    }
+
+    #footer{
+        position: relative;
+    }
+    #footer .fa-solid{
+        color: #EAC926;
+    }
+ 
+   /*   #footer:hover .fa-solid{
+        color: #EAC926;
+
+    }
+
+  */
+
+ 
+}
